@@ -1,5 +1,3 @@
-
-
 #код моделирует распространение сейсмических волн в скважине:
 """ 
 1. Генерирует сетку глубин.
@@ -48,8 +46,8 @@ plt.ylabel('Travel Time (s)') # plt.ylabel('Travel Time (s)') — подписы
 plt.legend(loc='lower right') # plt.legend(loc='lower right') — добавляем легенду в правый нижний угол.
 plt.grid() # plt.grid() — добавляем сетку.
 
-"""
-# Plot True vs. Estimated Slowness (Noise-free Solution)
+
+Plot True vs. Estimated Slowness (Noise-free Solution)
 plt.figure(2)
 plt.plot(z, s, 'k', label='m_true')
 plt.plot(z, np.linalg.solve(G, t), 'r-.', label='m')
