@@ -47,7 +47,7 @@ plt.legend(loc='lower right') # plt.legend(loc='lower right') — добавля
 plt.grid() # plt.grid() — добавляем сетку.
 
 
-Plot True vs. Estimated Slowness (Noise-free Solution)
+Plot TTrue vs. Estimated Slowness (Noise-free Solution)
 plt.figure(2)
 plt.plot(z, s, 'k', label='m_true')
 plt.plot(z, np.linalg.solve(G, t), 'r-.', label='m')
@@ -69,5 +69,4 @@ plt.ylabel('Slowness (m/s)')
 plt.legend()
 plt.title('Noisy Solution')
 plt.grid()
-"""
 plt.show()
