@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Constants (example values, can be modified as needed)
-A = 10000.0  # Area of the loop in m^2 (assumed value)
-rho1 = 50  # Resistivity of the first layer in ohm-m (assumed value)
+A = 500000.0  # Area of the loop in m^2 (assumed value)
+rho1 = 100000  # Resistivity of the first layer in ohm-m (assumed value)
 eta = 0.1  # Noise level (assumed value)
 
 # Function to calculate effective depth H
