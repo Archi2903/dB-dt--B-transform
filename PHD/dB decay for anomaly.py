@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+ 
 
 # параметры
 A = 101            #амплитуда когда нет аномалепроводящего тела
